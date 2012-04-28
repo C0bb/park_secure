@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#E8E8E8;
+}
+#container {
+	width:968px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	-moz-border-radius:20px;
+	-moz-box-shadow:2px 2px 5px #999;
+	-webkit-border-radius:20px;
+	-webkit-box-shadow:2px 2px 5px #999;
+}
+
+#banner {
+	position: relative;
+}
+
+#main_image {
+	width: 968px;
+	height: 376px;
+	background-image: url(hangar25interior.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+}
+
+#main_text {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	width:460px;
+	background-color:#FFFFFF;
+	position:relative;
+	display:block;
+	top:30px;
+	left:30px;
+	-moz-border-radius:20px;
+	-moz-box-shadow:2px 2px 5px #999;
+	-webkit-border-radius:20px;
+	-webkit-box-shadow:2px 2px 5px #999;
+	float:left;
+}
+
+#main_text p {
+	line-height: normal;
+	margin: 0 auto;
+	font-size:17px;
+	padding-left:15px;
+	padding-bottom:10px;
+}
+
+#main_text h2 {
+	margin: 0 auto;
+	padding-left:15px;
+	padding-bottom:5px;
+}
+
+#main_text h1 {
+	color:#000099;
+	padding:5px 10px 0px;
+}
+
+
+
+#quoteForm {
+	position:relative;
+	float:right;
+	background:#FFFFFF;
+	margin-right:80px;
+	margin-top:90px;
+	width:290px;
+	padding-right: 20px;
+}
+
+#quoteForm p  {
+	position:relative;
+	float:right;
+	display:block;
+}
+
+
+.ui-datepicker-trigger {
+    cursor: pointer;       
+}​
+
+
+
+#right_column {
+	width:484px;
+	display: inline-block;
+	float: right;
+}
+
+#left_column {
+	width:484px;
+	background-color:#AEE1FF;
+	display: inline-block;
+}
+
+#footer {
+	width:968;
+	height:100;
+}

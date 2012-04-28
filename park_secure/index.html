@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Park-Secure</title>
+<style type="text/css">
+@import url("park_secure.css");
+</style>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script>
+  $(function() {
+	$("#datePickerOne").datepicker({dateFormat:'dd/mm/yy',
+	    showOn: "both",
+		minDate:0,
+        buttonImage: "calendar.png", 
+        buttonImageOnly: true});
+	$("#datePickerTwo").datepicker({dateFormat:'dd/mm/yy',
+	    showOn: "both",
+		minDate:0,
+        buttonImage: "calendar.png", 
+        buttonImageOnly: true});
+	
+	
+  });
+  </script>
+<style type="text/css">
+    .ui-datepicker {
+        font-size: 13px;
+        margin-left:10px
+     }
+.fromTimeHour {
+	float: right;
+	display: block;
+}
+.formRightTo p {
+	padding-top: 40px;
+}
+.formRow .fromTime {
+	display: block;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+#formSplit {
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #666;
+	display: block;
+}
+</style>  
+</head>
+
+<body>
+<div id="container">
+  <div id="header"><div id="logo"></div></div>
+  <div id="main_image">
+  	<div id="main_text"><h1>Park Secure - Bristol Airport</h1>
+  	  <p>Based 1 mile from Bristol Airport, Park Secure provides a meet and greet parking service for business and holiday travellers.</p>
+      <p>Our service includes:</p>
+      <ul>
+      <li>A meet and greet service</li>
+      <li>Undercover parking</li>
+      <li>Brand-new CCTV system</li>
+      <li>24 hour manned site</li><br />
+      </ul>
+    </div>
+      <div id="quote">
+       <div id="quoteForm">
+      	<div class="formRow">
+         <div class="formRight">
+         <p>From:<input type"text" id="datePickerOne" /></p>
+         
+         </div>
+        
+        
+        
+        </div><!--end of first formRow-->
+        
+        <div class="formRow">
+         <div class="fromTime">Time:
+          <select class="fromTimeHour" id="fromTimeHour">
+          	<option value="00">00</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+		 </select>
+          <select id="fromTimeMin">	<option value="00">00</option>
+            <option value="15">15</option>
+            <option value="30">30</option>
+        	<option value="45">45</option>
+		  </select>
+         
+         
+         
+         </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div><!--end of second formRow-->
+        <div id="formSplit"></div>
+        <div class="formRow">
+         <div class="formRightTo">
+          <p>To:<input type"text" id="datePickerTwo" /></p>
+         </div>
+        
+         </div><!--end of third formRow-->
+         <div class="formRow">
+         <div class="fromTime">Time:
+          <select class="fromTimeHour" id="fromTimeHour">
+          	<option value="00">00</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+		 </select>
+          <select id="fromTimeMin">	<option value="00">00</option>
+            <option value="15">15</option>
+            <option value="30">30</option>
+        	<option value="45">45</option>
+		  </select>
+         
+         
+         
+         </div>
+         </div><!--end of fourth formRow-->
+      
+      
+      </div><!--end of quoteForm-->
+      </div><!--end of quote-->
+  </div>
+  
+  <div id="right_column">Content for  id "right_column" Goes Her</div>
+  <div id="left_column">Content forid "left_column" Goes Here</div>
+  <div id="footer">Content for  id "footer"  </div>
+</div>
+  </div>
+</body>
+</html>
